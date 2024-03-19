@@ -144,3 +144,4 @@ array_walk_recursive($firstArr, function($value) use (&$sum) {
 });
 
 echo "Сумма всех значений в массиве: " . $sum;
+//test
