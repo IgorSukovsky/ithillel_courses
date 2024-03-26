@@ -1,5 +1,8 @@
 <?php
 
+namespace load;
+
+
 abstract class ParentClass
 {
     protected float $number;
@@ -27,3 +30,4 @@ abstract class ParentClass
 
     abstract public function powerUp(): float;
 }
+//

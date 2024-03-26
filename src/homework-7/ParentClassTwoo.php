@@ -1,5 +1,6 @@
 <?php
 
+namespace load;
 
 class ParentClassTwoo
 {
@@ -100,5 +101,5 @@ final class Child3
         return $parentValue - $this->childProperty;
     }
 }
-
+//
 

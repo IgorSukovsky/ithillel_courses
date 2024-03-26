@@ -4,6 +4,7 @@ require_once "ParentClassTwoo.php";
 require_once "ParentClass.php";
 
 
+
 $baseObj = new BaseClass();
 $baseObj->setBaseProperty(10);
 
