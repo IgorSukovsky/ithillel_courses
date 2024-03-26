@@ -1,7 +1,16 @@
 <?php
-require_once "BaseClass.php";
-require_once "ParentClassTwoo.php";
-require_once "ParentClass.php";
+
+require_once "../vendor/autoload.php";
+use load\BaseClass;
+use load\FirstChild;
+use load\SecondChild1;
+use load\GrandChild2;
+use load\SecondChild;
+use load\GrandChild1;
+use load\ParentClassTwoo;
+use load\Child1;
+use load\Child2;
+use load\Child3;
 
 
 
