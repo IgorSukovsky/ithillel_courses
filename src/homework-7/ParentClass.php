@@ -1,5 +1,5 @@
 <?php
-
+namespace load\ParentClass;
 abstract class ParentClass
 {
     protected float $number;

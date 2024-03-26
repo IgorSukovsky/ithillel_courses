@@ -1,5 +1,5 @@
 <?php
-
+namespace load\ParentClassTwoo;
 class ParentClassTwoo
 {
     protected int $parentProperty;
