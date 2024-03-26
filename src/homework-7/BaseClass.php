@@ -1,5 +1,6 @@
 <?php
 
+namespace load;
 
 class BaseClass
 {
@@ -89,3 +90,4 @@ class GrandChild2 extends SecondChild
     }
 }
 
+//
