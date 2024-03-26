@@ -1,5 +1,6 @@
 <?php
-namespace load\BaseClass;
+
+
 class BaseClass
 {
     private $baseProperty;
