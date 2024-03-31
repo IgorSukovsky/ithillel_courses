@@ -7,4 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'load\\BaseClass' => $baseDir . '/homework-7/BaseClass.php',
+    'load\\ParentClass' => $baseDir . '/homework-7/ParentClass.php',
+    'load\\ParentClassTwoo' => $baseDir . '/homework-7/ParentClassTwoo.php',
 );
