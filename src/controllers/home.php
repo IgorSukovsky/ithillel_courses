@@ -1,11 +1,12 @@
 <?php
 
 namespace App\controllers;
+use App\core\viewer;
 
 class home
 {
     public function index()
     {
-        echo 'home';
+        viewer::view('home','home_index');
     }
 }

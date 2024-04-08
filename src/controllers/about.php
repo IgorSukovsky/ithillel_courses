@@ -1,11 +1,13 @@
 <?php
 
 namespace App\controllers;
+use App\core\viewer;
 
 class about
 {
     public function index()
     {
-        echo 'about';
+        viewer::view('about','about_index');
     }
 }
+
