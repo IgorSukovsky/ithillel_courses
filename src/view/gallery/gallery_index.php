@@ -6,6 +6,18 @@
 <div id="imageGallery">
 </div>
 
+<table>
+    <tr>
+        <th>id</th>
+        <th>post name</th>
+    </tr>
+    <?php foreach ($galleries as $gallery) : ?>
+        <tr>
+            <td> <?= $gallery['id'] ?> </td>
+            <td> <?= $gallery['name'] ?> </td>
+        </tr>
+    <?php endforeach ?>
+</table>
 <button>
     <a href="gallery/create">create</a>
 </button>
@@ -16,6 +28,9 @@
 
 <button>
     <a href="gallery/update">update</a>
+</button>
+<button>
+    <a href="/about">about</a>
 </button>
 
 
