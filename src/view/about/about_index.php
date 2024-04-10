@@ -1,11 +1,15 @@
 <table>
     <h1>About</h1>
     <tr>
-        <th>first</th>
-        <th>second</th>
+        <th>id</th>
+        <th>post name</th>
     </tr>
-    <tr>
-        <td>3</td>
-        <td>4</td>
-    </tr>
-</table>
+    <?php foreach ($users as $user) : ?>
+        <tr>
+            <td> <?= $user['id'] ?> </td>
+            <td> <?= $user['name'] ?> </td>
+        </tr>
+    <?php endforeach ?>
+<button>
+    <a href="/home">назад</a>
+</button>

@@ -2,12 +2,16 @@
 
 namespace App\controllers;
 use App\core\viewer;
+use App\models\galleries;
+
 
 class gallery
 {
     public function index()
     {
-        viewer::view('gallery','gallery_index');
+        $model = new galleries();
+        $data['galleries'] = $model->findAll();
+        viewer::view('gallery','gallery_index', $data);
     }
 
     public function create()
